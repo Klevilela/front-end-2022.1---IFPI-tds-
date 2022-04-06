@@ -1,0 +1,11 @@
+h1{color: blue; text-align: center;}
+.g1,.g2{color: blue;}
+.o,.e{color: red;}
+.o2{color: yellow;}
+.l{color: green;}
+
+span{
+    font-family: 'Open Sans';
+    font-size: 350%;
+    text-align: center;
+} 
