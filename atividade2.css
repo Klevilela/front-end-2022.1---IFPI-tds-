@@ -1,1 +1,10 @@
-h1{color: blue;}
+article{
+    font-family: 'Open Sans';
+    text-align: justify;
+    font-size: 150%;
+    margin: 70px;
+    background: lightblue;
+}
+h1{color: blue; font-size: 200%;}
+img{height: 450px; width: 450px; margin: auto;}
+div{text-align: center;}
