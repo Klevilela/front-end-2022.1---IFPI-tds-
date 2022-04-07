@@ -3,6 +3,7 @@ article{
     text-align: justify;
     font-size: 150%;
     margin: 70px;
+    padding: 10px;
     background: lightblue;
 }
 h1{color: blue; font-size: 200%;}
