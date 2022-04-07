@@ -1,11 +1,16 @@
 article{
     font-family: 'Open Sans';
     text-align: justify;
-    font-size: 150%;
-    margin: 70px;
-    padding: 10px;
+    font-size: 130%;
+    margin: 30px;
+    padding: 30px;
     background: lightblue;
+    border-radius: 10px;
 }
+
+header, footer{background: brown; padding: 30px; margin: 30px; border-radius: 10px; color: white;}
 h1{color: blue; font-size: 200%;}
 img{height: 450px; width: 450px; margin: auto;}
 div{text-align: center;}
+.cabecalho{color: white; font-family: 'Open Sans';}
+body{background: gray;}
