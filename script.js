@@ -7,6 +7,11 @@ function configurarPagina(){
     document.getElementById('n1').addEventListener('click',  somar)
     document.getElementById('n2').addEventListener('click',  somar)
     document.getElementById('soma').addEventListener('click', somar)
+
+    //document.getElementById('n1').addEventListener('click',  limpar_soma)
+    //document.getElementById('n2').addEventListener('click',  limpar_soma)
+    document.getElementById('limpar').addEventListener('click',  limpar_soma)
+    document.getElementById('soma').addEventListener('click', limpar_soma)
 }
 
 function saudacao(){
@@ -32,4 +37,19 @@ function somar(){
     const soma = n1 + n2
 
     document.getElementById('soma').innerHTML=`<h1>${soma}</h1>`
+}
+
+function limpar_soma(){
+    const limpar_n1 = parseInt(document.getElementById('n1').value).innerHTML = ''
+    const limpar_n2 = parseInt(document.getElementById('n2').value).innerHTML = ''
+
+    //document.getElementById('n1')
+    //document.getElementById('n2')
+
+    //document.getElementById('soma')
+    //const limpar_resultado = document.getElementById('soma').innerHTML = ''
+
+    //document.getElementById('limpar')
+    //const n1 = limpar_n1
+    //const n2 = limpar_n2
 }
