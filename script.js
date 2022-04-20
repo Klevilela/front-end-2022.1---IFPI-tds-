@@ -3,6 +3,10 @@ function configurarPagina(){
     document.getElementById('link2').addEventListener('click', saudacao2)
     document.getElementById('link3').addEventListener('click', saudacao3)
     document.getElementById('link4').addEventListener('click', limpar)
+
+    document.getElementById('n1').addEventListener('click',  somar)
+    document.getElementById('n2').addEventListener('click',  somar)
+    document.getElementById('soma').addEventListener('click', somar)
 }
 
 function saudacao(){
@@ -19,4 +23,13 @@ function saudacao3(){
 
 function limpar(){
     document.getElementById('resultado').innerHTML= ''
+}
+
+function somar(){
+    const  n1 = parseInt(document.getElementById('n1').value)
+    const  n2 = parseInt(document.getElementById('n2').value)
+
+    const soma = n1 + n2
+
+    document.getElementById('soma').innerHTML=`<h1>${soma}</h1>`
 }
